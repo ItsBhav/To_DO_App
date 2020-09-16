@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+</head>
+    <title>To Do List App</title>
+</head>
+<body>
+
+  <section class="container">
+    <header>
+      <h1>To Do App</h1>
+    </header>
+    <p>
+      <label for="new-task">Add Item</label>
+      <div class="new-task">
+        <input id="new-task" type="text">
+        <button class="add">Add</button>
+      </div>
+    </p>
+    <h3>Todo</h3>
+    <ul id="incomplete-tasks">
+      <li>
+        <div>
+          <input type="checkbox">
+          <label>Learn more JavaScript</label>
+          <input type="text">
+        </div>
+        <div>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <input type="checkbox">
+          <label>Wash the dishes</label>
+          <input type="text" value="Go Shopping">
+        </div>
+        <div>
+          <button class="edit">Edit</button>
+          <button class="delete">Delete</button>
+        </div>
+      </li>
+    </ul>
+    <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li>
+          <div>
+            <input type="checkbox" checked>
+            <label>See the doctor</label>
+            <input type="text">
+          </div>
+          <div>
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button>
+          </div>
+        </li>
+      </ul>
+  </section>
+    <script src="./main.js/app.js"></script>
+</body>
+
+</html>
